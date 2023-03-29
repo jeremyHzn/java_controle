@@ -13,6 +13,15 @@ import java.io.IOException;
  */
 public class App extends Application {
 
+	private static String pseudo;
+	
+	public static String getPseudo() {
+		return pseudo;
+	}
+	
+	public static void setPseudo(String p) {
+		pseudo = p;
+	}
     private static Scene scene;
 
     @Override
